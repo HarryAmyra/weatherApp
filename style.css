@@ -1,0 +1,126 @@
+#citySearch {
+  border-radius: 5px;
+  text-align: center;
+}
+input[type="text"] {
+  border: 2px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background-color: #33e3ff;
+  color: white;
+  border: none;
+  padding: 2px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+input[type="submit"]:hover {
+  background-color: blueviolet;
+}
+.current-button {
+  border: 2px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 4px;
+  color: black;
+  background-color: gray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.cities-button {
+  border: 2px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 4px;
+  color: black;
+  background-color: gray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+/*overall border for the website/ grey border*/
+.weather-app {
+  border: 6px;
+  border-radius: 20px;
+  border-color: gray;
+  border-style: solid;
+  padding: 15px;
+  margin: 15px auto;
+}
+/* blue border*/
+.today-weather {
+  border: 5px;
+  border-radius: 20px;
+  border-color: #33e3ff;
+  border-style: solid;
+  max-width: 600px;
+  padding: 15px;
+  margin: 20px auto;
+  position: relative;
+  right: 120px;
+}
+ul {
+  position: absolute;
+  list-style-type: none;
+  right: 20px;
+  top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+}
+.column {
+  padding: 30px;
+  text-align: center;
+  height: 100px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.weather-description {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(93, 91, 91);
+  margin: 30px;
+}
+.col {
+  padding: 30px;
+  text-align: center;
+  height: 100px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.city-name {
+  position: fixed;
+  right: 200px;
+  top: 25%;
+  transform: translateY(-50%); /*position in the middle verticaly*/
+  font-family: "Roboto", sans-seriff;
+  font-size: 20px;
+  color: black;
+}
+.city-description {
+  position: fixed;
+  right: 20px;
+  top: 30%;
+  transform: translateY(-50%);
+}
+/* html background*/
+html {
+  background-color: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+}
